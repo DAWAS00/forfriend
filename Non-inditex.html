@@ -62,29 +62,26 @@
                   </tr>
                </table>
                
-<h2>How TO Calculate The Inditex Royalty:</h2>
+<h2>How to calculate Inditex royalties:
+</h2>
 <ul>
  <li class="center">
-        Take The Balance For The Period (Brand).
+       We extract gross sales from JDE for the period required and check if it equals the sales in the invoice 
+
     </li>
     <li>
-        "*" Depends On Brand .
+     We multiply the sales with the royalty provision as per the agreement 
+
     </li>
-    <li>The Result Of The Answer - The Provision</li>
-    <li>
-        Put The Business Unit On BPM Depend On If It Was <ul>
-            <li>
-                Online Sales 
-            </li>
-            <li>
-                OffLine Sales 
-            </li>
-        </ul>
+    <li>We calculate the difference between the result and the provision 
+</li>
+    <li>We add the business unit on BPM for the brand and it depends if it is online or offline sales 
     </li>
     <hr>
     
        <form action=""> 
-        <li><img src="Inditex3.jpg" alt=""> <br>
+        <li>We extract the TB as per the below:  <br>
+ <img src="Inditex3.jpg" alt=""> <br>
         
          Fill Fiscal Year  <input type="text">  <input type="button"  value="Seclect Company" > <br>
           Period-From    <input type="text">  <input type="button"  value="Seclect Object"> <br>
@@ -92,25 +89,27 @@
 
        </form>
     </li>
-    <li>
-       We download the file from NetSales and sum the " Preiod Transaction Total" column. <br>
-       The sum of the Period Transaction Total divided by the GDE percentage.
-    </li>
-<li>
-    Perform the following calculation: <br>
-    (1/"Exchange rate "* "Balance for the Period(Brand)")
-</li>
-<li>The Result of the calculation for the Netsales - provision</li>
-<li>To show the DOE</li>
-</ul>
+    
+  <li> After checking the sales:
+We take the provision divided by the JDE exchange rate , the remaining balance to be booked on DOE (difference in exchange rate )
+How do we check that the amount booked on DOE is correct: </li>
 
+    
+<li>
+    provision amount / rate on JDE
+
+</li>
+<li>provision / (1/rate on the invoice)
+</li>
+<li>the difference is the DOE to be booked on 9523 or 9524</li>
+</ul>
 <p>
     <h3>The Difference between Inditex & No-inditex</h3>
     - When we download the NetSales we use to object : <br>
     (" 5111 ", "5112")
 
 </p>
-Thanks for Bela ,Syrina , Ayah , Nour 
+*Thanks for Bela ,Syrina , Ayah , Nour* 
  </div>
               
             </div>
